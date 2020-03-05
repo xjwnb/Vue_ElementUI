@@ -2,13 +2,22 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 
+// import test from 'components/test.vue'
+const GeneralLayout = () => import('views/Basic/Layout')
+
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    children: [
+      {
+        path: '/layout',
+        component: GeneralLayout
+      }
+    ]
   },
   {
     path: "/about",
@@ -22,6 +31,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 });
 
