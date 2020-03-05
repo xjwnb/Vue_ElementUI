@@ -16,5 +16,6 @@ export default {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 2px 3px rgb(105, 98, 98);
+  margin-bottom: 50px;
 }
 </style>

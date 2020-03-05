@@ -1,24 +1,24 @@
 const menuList = {
-    "data": [
-      {
-        "id": 9,
-        "authName": "Basic",
-        "path": null,
-        "children": [
-          {
-            "id": 1,
-            "authName": "Layout布局",
-            "path": "layout",
-            "children": []
-          },
-          {
-            "id": 22,
-            "authName": "Button按钮",
-            "path": "button",
-            "children": []
-          }
-        ]
-      }/* ,
+  "data": [
+    {
+      "id": 9,
+      "authName": "Basic",
+      "path": null,
+      "children": [
+        {
+          "id": 1,
+          "authName": "Layout布局",
+          "path": "layout",
+          "children": []
+        },
+        {
+          "id": 22,
+          "authName": "Button按钮",
+          "path": "button",
+          "children": []
+        }
+      ]
+    }/* ,
       {
         "id": 10,
         "authName": "权限管理",
@@ -88,12 +88,45 @@ const menuList = {
         }
       ]
     } */
-    ],
-    "meta": {
-      "msg": "获取菜单列表成功",
-      "status": 200
-    }
+  ],
+  "meta": {
+    "msg": "获取菜单列表成功",
+    "status": 200
+  }
 }
+
+/* const options = {
+  "options": [
+    {
+      value: "24",
+      label: "1"
+    },
+    {
+      value: "12",
+      label: "2"
+    },
+    {
+      value: "8",
+      label: "3"
+    },
+    {
+      value: "6",
+      label: "4"
+    },
+    {
+      value: "4",
+      label: "6"
+    },
+    {
+      value: "2",
+      label: "12"
+    },
+    {
+      value: "1",
+      label: "24"
+    }
+  ]
+} */
 
 export {
   menuList
