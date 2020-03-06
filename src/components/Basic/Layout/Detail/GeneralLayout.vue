@@ -47,6 +47,10 @@ export default {
 </script>
 
 <style lang="less" scoped>
+h3 {
+  margin-bottom: 10px;
+}
+
 .el-row {
   margin-bottom: 20px;
   &:last-child {

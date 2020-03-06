@@ -1,7 +1,9 @@
 <template>
   <div id="input">
     <el-input v-model="inputdata" 
-              placeholder="请输入内容" 
+              placeholder="更改间距"
+              type="number"
+              maxlength="3"
               @blur="inputHandle"
               >
     </el-input>
@@ -31,5 +33,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-
+.el-input {
+  margin-bottom: 10px;
+}
 </style>

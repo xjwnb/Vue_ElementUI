@@ -2,18 +2,19 @@
   <div>
     <GeneralLayout></GeneralLayout>
     <ColumnSpacing></ColumnSpacing>
-    <h1>哈哈哈</h1>
+    <MixedLayout></MixedLayout>
   </div>
 </template>
 
 <script>
-import { GeneralLayout, ColumnSpacing } from 'components/Basic/Layout'
+import { GeneralLayout, ColumnSpacing, MixedLayout } from 'components/Basic/Layout'
 
 export default {
   name: 'Basic',
   components: {
     GeneralLayout,
-    ColumnSpacing
+    ColumnSpacing,
+    MixedLayout
   }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div id="layout">
-    <el-row>
+    <el-row :gutter="gutter">
       <el-col :span="parseInt(selectValue)" :key="index" v-for="(item, index) in cols">
         <div class="grid-content bg-purple-dark"><h3>{{selectValue}}</h3></div>
       </el-col>
@@ -17,19 +17,32 @@ export default {
       default() {
         return ''
       }
+    },
+    inputData: {
+      type: String,
+      default: ''
     }
   },
   data() {
     return {
       selectValue: null,
-      cols: null
+      cols: null,
+      gutter: null
     };
   },
+  computed: {
+  },
   watch: {
+    // 监控传递过来的 value ,并处理
     value() {
       // console.log(this.value)
       this.selectValue = this.value
       this.colCount()
+    },
+
+    // 监控传递过来的 inputData ,并处理
+    inputData() {
+      this.gutter = parseInt(this.inputData)
     }
   },
   created() {
