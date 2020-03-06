@@ -95,39 +95,42 @@ const menuList = {
   }
 }
 
-/* const options = {
-  "options": [
+const buttonType = {
+  "buttonType": [
     {
-      value: "24",
-      label: "1"
+      "id": 1,
+      "btntype": "primary",
+      "name": "主要按钮",
+      "icon": "el-icon-edit"
     },
     {
-      value: "12",
-      label: "2"
+      "id": 2,
+      "btntype": "success",
+      "name": "主要按钮",
+      "icon": "el-icon-check"
     },
     {
-      value: "8",
-      label: "3"
+      "id": 3,
+      "btntype": "info",
+      "name": "信息按钮",
+      "icon": "el-icon-message"
     },
     {
-      value: "6",
-      label: "4"
+      "id": 4,
+      "btntype": "warning",
+      "name": "警报按钮",
+      "icon": "el-icon-star-off"
     },
     {
-      value: "4",
-      label: "6"
-    },
-    {
-      value: "2",
-      label: "12"
-    },
-    {
-      value: "1",
-      label: "24"
+      "id": 5,
+      "btntype": "danger",
+      "name": "危险按钮",
+      "icon": "el-icon-delete"
     }
   ]
-} */
+}
 
 export {
-  menuList
+  menuList,
+  buttonType
 }
