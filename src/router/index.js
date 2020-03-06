@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 
 // import test from 'components/test.vue'
 const GeneralLayout = () => import('views/Basic/Layout')
+const Button = () => import('views/Basic/Button')
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,10 @@ const routes = [
       {
         path: '/layout',
         component: GeneralLayout
+      },
+      {
+        path: '/button',
+        component: Button
       }
     ]
   },

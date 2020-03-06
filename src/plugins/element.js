@@ -12,7 +12,8 @@ import {
   Main,
   Select,
   Option,
-  Input
+  Input,
+  pagination
 } from 'element-ui'
 
 const element = {
@@ -31,6 +32,7 @@ const element = {
     Vue.use(Select)
     Vue.use(Option)
     Vue.use(Input)
+    Vue.use(pagination)
   }
 }
 
