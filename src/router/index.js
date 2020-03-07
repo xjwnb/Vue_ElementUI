@@ -3,8 +3,10 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 
 // import test from 'components/test.vue'
+const Basic = () => import('views/Basic/index')
 const GeneralLayout = () => import('views/Basic/Layout')
 const Button = () => import('views/Basic/Button')
+const Progress = () => import('views/Basic/Progress')
 
 Vue.use(VueRouter);
 
@@ -13,7 +15,7 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-    children: [
+/*     children: [
       {
         path: '/layout',
         component: GeneralLayout
@@ -21,6 +23,29 @@ const routes = [
       {
         path: '/button',
         component: Button
+      }
+    ] */
+  },
+  {
+    path: "/basic",
+    name: "Basic",
+    component: Basic,
+    children: [
+      {
+        path: "/",
+        component: Basic
+      },
+      {
+        path: 'layout',
+        component: GeneralLayout
+      },
+      {
+        path: 'button',
+        component: Button
+      },
+      {
+        path: 'progress',
+        component: Progress
       }
     ]
   },
