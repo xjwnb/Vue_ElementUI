@@ -60,7 +60,6 @@ export default {
     };
   },
   created() {
-    console.log(this);
     this.initPercentage(60, 10, 100);
     this.initSuccessPercentage(70, 10, 100);
     this.initWarningPercentage(80, 10, 100);
