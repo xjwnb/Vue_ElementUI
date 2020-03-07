@@ -10,7 +10,9 @@
         <NavMenu :menus="menus"></NavMenu>
       </el-aside>
       <el-main>
-        <router-view></router-view>
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
       </el-main>
     </el-container>
   </el-container>
@@ -35,12 +37,12 @@ export default {
     this.getMenus("/getData");
   },
   methods: {
-    // 
+    //
     getMenus(url) {
       menus(url)
         .then(res => {
           // console.log(res);
-          this.menus = res.data
+          this.menus = res.data;
           // console.log(this.menus)
         })
         .catch(err => {
