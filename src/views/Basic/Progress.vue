@@ -3,7 +3,6 @@
     <LinearProgress></LinearProgress>
     <PercentageIn></PercentageIn>
     <CircleProgress></CircleProgress>
-    <h1>进度条哈哈哈</h1>
   </div>
 </template>
 
