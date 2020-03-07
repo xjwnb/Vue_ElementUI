@@ -22,6 +22,12 @@ const menuList = {
           "authName": "Progress进度条",
           "path": "/basic/progress",
           "children": []
+        },
+        {
+          "id": 24,
+          "authName": "Color颜色",
+          "path": "/basic/color",
+          "children": []
         }
       ]
     }/* ,
