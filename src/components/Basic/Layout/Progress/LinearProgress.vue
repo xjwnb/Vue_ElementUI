@@ -13,7 +13,6 @@
 <script>
 import Box from "components/Box/Box";
 import Progress from "components/Progress/Progress";
-// import { initPercentage, initSuccessPercentage, initWarningPercentage} from 'util/Progress'
 
 export default {
   name: "LinearProgress",
