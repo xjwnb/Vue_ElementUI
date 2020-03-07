@@ -7,6 +7,7 @@ const Basic = () => import('views/Basic/index')
 const GeneralLayout = () => import('views/Basic/Layout')
 const Button = () => import('views/Basic/Button')
 const Progress = () => import('views/Basic/Progress')
+const Color = () => import('views/Basic/Color')
 
 Vue.use(VueRouter);
 
@@ -46,6 +47,10 @@ const routes = [
       {
         path: 'progress',
         component: Progress
+      },
+      {
+        path: 'color',
+        component: Color
       }
     ]
   },
