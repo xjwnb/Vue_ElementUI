@@ -13,7 +13,8 @@ import {
   Select,
   Option,
   Input,
-  pagination
+  Pagination,
+  Progress
 } from 'element-ui'
 
 const element = {
@@ -32,7 +33,8 @@ const element = {
     Vue.use(Select)
     Vue.use(Option)
     Vue.use(Input)
-    Vue.use(pagination)
+    Vue.use(Pagination)
+    Vue.use(Progress)
   }
 }
 

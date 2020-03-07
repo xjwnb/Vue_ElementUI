@@ -10,7 +10,7 @@
         <NavMenu :menus="menus"></NavMenu>
       </el-aside>
       <el-main>
-        <keep-alive>
+        <keep-alive exclude="Progress">
           <router-view></router-view>
         </keep-alive>
       </el-main>
