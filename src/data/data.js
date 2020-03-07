@@ -8,13 +8,19 @@ const menuList = {
         {
           "id": 1,
           "authName": "Layout布局",
-          "path": "layout",
+          "path": "/basic/layout",
           "children": []
         },
         {
           "id": 22,
           "authName": "Button按钮",
-          "path": "button",
+          "path": "/basic/button",
+          "children": []
+        },
+        {
+          "id": 23,
+          "authName": "Progress进度条",
+          "path": "/basic/progress",
           "children": []
         }
       ]
