@@ -14,7 +14,8 @@ import {
   Option,
   Input,
   Pagination,
-  Progress
+  Progress,
+  Notification
 } from 'element-ui'
 
 const element = {
@@ -35,6 +36,7 @@ const element = {
     Vue.use(Input)
     Vue.use(Pagination)
     Vue.use(Progress)
+    Vue.use(Notification)
   }
 }
 
