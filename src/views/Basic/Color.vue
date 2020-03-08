@@ -1,20 +1,20 @@
 <template>
   <div id="color">
-    <!-- <RectColor></RectColor> -->
     <ColorCopy></ColorCopy>
+    <LinearColor></LinearColor>
     <h1>哈哈哈</h1>    
   </div>
 </template>
 
 <script>
-// import RectColor from 'components/RectColor/RectColor'
 import ColorCopy from 'components/Basic/Color/ColorCopy'
+import LinearColor from 'components/Basic/Color/LinearColor'
 
 export default {
   name: 'Color',
   components: {
-    ColorCopy
-    // RectColor
+    ColorCopy,
+    LinearColor
   }
 }
 </script>

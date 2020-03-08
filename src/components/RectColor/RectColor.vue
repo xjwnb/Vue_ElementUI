@@ -3,7 +3,9 @@
     <el-button
       class="btn"
       plain
-      :style="{backgroundColor: color, border: borderColor}"
+      :style="{backgroundImage: color, backgroundColor: color, 
+      border: borderColor, 
+      width: widt, height: heigh}"
       @click="ClickHandle"
       data-clipboard-action="copy"
       :data-clipboard-text="color"
@@ -20,6 +22,12 @@ export default {
       type: String
     },
     borderColor: {
+      type: String
+    },
+    widt: {
+      type: String
+    },
+    heigh: {
       type: String
     }
   },
