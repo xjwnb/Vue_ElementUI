@@ -61,7 +61,7 @@ export default {
 .el-header {
   display: flex;
   justify-content: space-between;
-  background-color: skyblue;
+  background-color: rgb(102, 228, 144);
 }
 
 .el-header img {
@@ -70,7 +70,7 @@ export default {
 }
 
 .el-aside {
-  background-color: skyblue;
+  background-color: rgb(102, 228, 144);
 }
 
 .el-main {
