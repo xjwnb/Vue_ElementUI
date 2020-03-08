@@ -8,7 +8,6 @@
       data-clipboard-action="copy"
       :data-clipboard-text="color"
     >
-      <!-- <div class="rect" :style="{backgroundColor: color, border: borderColor}" @click="ClickHandle"></div> -->
     </el-button>
   </div>
 </template>
@@ -25,26 +24,17 @@ export default {
     }
   },
   data() {
-    return {
-      notifyPromise: Promise.resolve()
-    };
+    return {};
   },
   methods: {
     ClickHandle() {
       let clipboard = new this.clipboard(".btn");
-      console.log("哈哈哈..");
-      this.notifyPromise = this.notifyPromise.then(() => {
-        clipboard.on("success", () => {
-          console.log("hhh");
-
-          this.$notify({
-            message: "你所选中的颜色已经被复制到粘贴板上",
-            position: "bottom-right"
-          });
+      clipboard.on("success", () => {
+        this.$notify({
+          message: "你所选中的颜色已经被复制到粘贴板上",
+          position: "bottom-right"
         });
       });
-
-      console.log("哈哈哈");
 
       clipboard.on("err", () => {
         this.$notify({

@@ -8,7 +8,7 @@
 
 <script>
 // import RectColor from 'components/RectColor/RectColor'
-import ColorCopy from 'components/Basic/Layout/Color/ColorCopy'
+import ColorCopy from 'components/Basic/Color/ColorCopy'
 
 export default {
   name: 'Color',
