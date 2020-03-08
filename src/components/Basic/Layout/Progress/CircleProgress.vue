@@ -138,6 +138,10 @@ h3 {
     flex: 1;
     text-align: center;
   }
+  .dashBoard {
+    flex: 1;
+    text-align: center;
+  }
 }
 </style>
 
