@@ -30,28 +30,28 @@ export default {
     };
   },
   methods: {
-     ClickHandle() {
+    ClickHandle() {
       let clipboard = new this.clipboard(".btn");
       console.log("哈哈哈..");
-this.notifyPromise = this.notifyPromise.then(() => {
+      this.notifyPromise = this.notifyPromise.then(() => {
         clipboard.on("success", () => {
           console.log("hhh");
 
-           this.$notify({
+          this.$notify({
             message: "你所选中的颜色已经被复制到粘贴板上",
             position: "bottom-right"
           });
         });
-        })
+      });
 
       console.log("哈哈哈");
 
-      /*       clipboard.on("err", () => {
+      clipboard.on("err", () => {
         this.$notify({
           message: "复制失败",
           position: "bottom-right"
         });
-      }); */
+      });
     }
   }
 };
