@@ -4,11 +4,14 @@ import router from "./router";
 import store from "./store";
 import 'element-ui/lib/theme-chalk/index.css';
 import element from './plugins/element';
+import { Notification } from 'element-ui'
+import clipboard from 'clipboard'
 
 require('./mock.js')
 
 Vue.use(element)
-
+Vue.prototype.clipboard = clipboard
+Vue.prototype.$notify = Notification
 Vue.config.productionTip = false;
 
 new Vue({
