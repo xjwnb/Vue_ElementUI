@@ -1,19 +1,19 @@
 <template>
   <div id="color">
     <!-- <RectColor></RectColor> -->
-    <ColorPickerRect></ColorPickerRect>
+    <ColorCopy></ColorCopy>
     <h1>哈哈哈</h1>    
   </div>
 </template>
 
 <script>
 // import RectColor from 'components/RectColor/RectColor'
-import ColorPickerRect from 'components/Basic/Layout/Color/ColorPickerRect'
+import ColorCopy from 'components/Basic/Layout/Color/ColorCopy'
 
 export default {
   name: 'Color',
   components: {
-    ColorPickerRect
+    ColorCopy
     // RectColor
   }
 }
