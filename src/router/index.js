@@ -8,6 +8,7 @@ const GeneralLayout = () => import('views/Basic/Layout')
 const Button = () => import('views/Basic/Button')
 const Progress = () => import('views/Basic/Progress')
 const Color = () => import('views/Basic/Color')
+const ColorPicker = () => import('views/Basic/ColorPicker')
 
 Vue.use(VueRouter);
 
@@ -51,6 +52,10 @@ const routes = [
       {
         path: 'color',
         component: Color
+      },
+      {
+        path: 'colorpicker',
+        component: ColorPicker
       }
     ]
   },
