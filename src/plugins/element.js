@@ -15,7 +15,8 @@ import {
   Input,
   Pagination,
   Progress,
-  Notification
+  Notification,
+  ColorPicker
 } from 'element-ui'
 
 const element = {
@@ -37,6 +38,7 @@ const element = {
     Vue.use(Pagination)
     Vue.use(Progress)
     Vue.use(Notification)
+    Vue.use(ColorPicker)
   }
 }
 
