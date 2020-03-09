@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import BasicButton from "components/Basic/Layout/Button/BasicButton";
-import IconButton from "components/Basic/Layout/Button/IconButton";
-import ColorButton from "components/Basic/Layout/Button/ColorButton";
-import SizeButton from "components/Basic/Layout/Button/SizeButton";
-import PaginationButton from "components/Basic/Layout/Button/PaginationButton";
+import BasicButton from "components/Basic/Button/BasicButton";
+import IconButton from "components/Basic/Button/IconButton";
+import ColorButton from "components/Basic/Button/ColorButton";
+import SizeButton from "components/Basic/Button/SizeButton";
+import PaginationButton from "components/Basic/Button/PaginationButton";
 
 export default {
   name: "Button",

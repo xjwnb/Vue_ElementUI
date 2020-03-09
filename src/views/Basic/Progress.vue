@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import LinearProgress from 'components/Basic/Layout/Progress/LinearProgress'
-import PercentageIn from 'components/Basic/Layout/Progress/PercentageIn'
-import CircleProgress from 'components/Basic/Layout/Progress/CircleProgress'
+import LinearProgress from 'components/Basic/Progress/LinearProgress'
+import PercentageIn from 'components/Basic/Progress/PercentageIn'
+import CircleProgress from 'components/Basic/Progress/CircleProgress'
 
 export default {
   name: 'Progress',

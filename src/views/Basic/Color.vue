@@ -1,8 +1,7 @@
 <template>
   <div id="color">
     <ColorCopy></ColorCopy>
-    <LinearColor></LinearColor>
-    <h1>哈哈哈</h1>    
+    <LinearColor></LinearColor> 
   </div>
 </template>
 
