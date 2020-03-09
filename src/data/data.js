@@ -28,6 +28,12 @@ const menuList = {
           "authName": "Color颜色",
           "path": "/basic/color",
           "children": []
+        },
+        {
+          "id": 25,
+          "authName": "ColorPicker颜色选择器",
+          "path": "/basic/colorpicker",
+          "children": []
         }
       ]
     }/* ,
