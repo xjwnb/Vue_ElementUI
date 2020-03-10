@@ -17,7 +17,8 @@ import {
   Progress,
   Notification,
   ColorPicker,
-  Icon
+  Icon,
+  Slider
 } from 'element-ui'
 
 const element = {
@@ -41,6 +42,7 @@ const element = {
     Vue.use(Notification)
     Vue.use(ColorPicker)
     Vue.use(Icon)
+    Vue.use(Slider)
   }
 }
 
