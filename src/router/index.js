@@ -9,6 +9,7 @@ const Button = () => import('views/Basic/Button')
 const Progress = () => import('views/Basic/Progress')
 const Color = () => import('views/Basic/Color')
 const ColorPicker = () => import('views/Basic/ColorPicker')
+const Icon = () => import('views/Basic/Icon')
 
 Vue.use(VueRouter);
 
@@ -16,17 +17,7 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home,
-/*     children: [
-      {
-        path: '/layout',
-        component: GeneralLayout
-      },
-      {
-        path: '/button',
-        component: Button
-      }
-    ] */
+    component: Home
   },
   {
     path: "/basic",
@@ -56,6 +47,10 @@ const routes = [
       {
         path: 'colorpicker',
         component: ColorPicker
+      },
+      {
+        path: 'icon',
+        component: Icon
       }
     ]
   },
