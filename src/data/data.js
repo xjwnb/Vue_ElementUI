@@ -34,6 +34,12 @@ const menuList = {
           "authName": "ColorPicker颜色选择器",
           "path": "/basic/colorpicker",
           "children": []
+        },
+        {
+          "id": 26,
+          "authName": "Icon图标",
+          "path": "/basic/icon",
+          "children": []
         }
       ]
     }/* ,
