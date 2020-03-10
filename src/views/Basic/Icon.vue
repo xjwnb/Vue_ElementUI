@@ -1,12 +1,22 @@
 <template>
   <div id="icon">
-    <h1>哈哈哈</h1>
+    <IconComs></IconComs>
   </div>
 </template>
 
 <script>
+import IconComs from 'components/Basic/IconComs/IconComs'
+
 export default {
-  name: "Icon"
+  name: "Icon",
+  components: {
+    IconComs
+  },
+  data() {
+    return {
+      data: 'el-icon-edit'
+    }
+  },
 }
 </script>
 
