@@ -11,6 +11,9 @@ const Color = () => import('views/Basic/Color')
 const ColorPicker = () => import('views/Basic/ColorPicker')
 const Icon = () => import('views/Basic/Icon')
 
+const Map = () => import('views/Map/index')
+const BasicMap = () => import('views/Map/BasicMap')
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -51,6 +54,16 @@ const routes = [
       {
         path: 'icon',
         component: Icon
+      }
+    ]
+  },
+  {
+    path: "/map",
+    component: Map,
+    children: [
+      {
+        path: 'basic',
+        component: BasicMap
       }
     ]
   },
