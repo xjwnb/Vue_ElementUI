@@ -42,7 +42,23 @@ const menuList = {
           "children": []
         }
       ]
-    }/* ,
+   },
+   {
+     "id": 27,
+     "authName": "Map地图",
+     "path": "/map",
+     "children": [
+       {
+        "id": 28,
+        "authName": "BasicMap",
+        "path": "/map/basic",
+        "children": []
+       }
+     ]
+   }
+    
+    
+    /* ,
       {
         "id": 10,
         "authName": "权限管理",
