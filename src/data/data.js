@@ -1,63 +1,62 @@
 const menuList = {
-  "data": [
+  data: [
     {
-      "id": 9,
-      "authName": "Basic",
-      "path": null,
-      "children": [
+      id: 9,
+      authName: "Basic",
+      path: null,
+      children: [
         {
-          "id": 1,
-          "authName": "Layout布局",
-          "path": "/basic/layout",
-          "children": []
+          id: 1,
+          authName: "Layout布局",
+          path: "/basic/layout",
+          children: [],
         },
         {
-          "id": 22,
-          "authName": "Button按钮",
-          "path": "/basic/button",
-          "children": []
+          id: 22,
+          authName: "Button按钮",
+          path: "/basic/button",
+          children: [],
         },
         {
-          "id": 23,
-          "authName": "Progress进度条",
-          "path": "/basic/progress",
-          "children": []
+          id: 23,
+          authName: "Progress进度条",
+          path: "/basic/progress",
+          children: [],
         },
         {
-          "id": 24,
-          "authName": "Color颜色",
-          "path": "/basic/color",
-          "children": []
+          id: 24,
+          authName: "Color颜色",
+          path: "/basic/color",
+          children: [],
         },
         {
-          "id": 25,
-          "authName": "ColorPicker颜色选择器",
-          "path": "/basic/colorpicker",
-          "children": []
+          id: 25,
+          authName: "ColorPicker颜色选择器",
+          path: "/basic/colorpicker",
+          children: [],
         },
         {
-          "id": 26,
-          "authName": "Icon图标",
-          "path": "/basic/icon",
-          "children": []
-        }
-      ]
-   },
-   {
-     "id": 27,
-     "authName": "Map地图",
-     "path": "/map",
-     "children": [
-       {
-        "id": 28,
-        "authName": "BasicMap",
-        "path": "/map/basic",
-        "children": []
-       }
-     ]
-   }
-    
-    
+          id: 26,
+          authName: "Icon图标",
+          path: "/basic/icon",
+          children: [],
+        },
+      ],
+    },
+    {
+      id: 27,
+      authName: "Map地图",
+      path: "/map",
+      children: [
+        {
+          id: 28,
+          authName: "BasicMap",
+          path: "/map/basic",
+          children: [],
+        },
+      ],
+    },
+
     /* ,
       {
         "id": 10,
@@ -129,48 +128,45 @@ const menuList = {
       ]
     } */
   ],
-  "meta": {
-    "msg": "获取菜单列表成功",
-    "status": 200
-  }
-}
+  meta: {
+    msg: "获取菜单列表成功",
+    status: 200,
+  },
+};
 
 const buttonType = {
-  "buttonType": [
+  buttonType: [
     {
-      "id": 1,
-      "btntype": "primary",
-      "name": "主要按钮",
-      "icon": "el-icon-edit"
+      id: 1,
+      btntype: "primary",
+      name: "主要按钮",
+      icon: "el-icon-edit",
     },
     {
-      "id": 2,
-      "btntype": "success",
-      "name": "主要按钮",
-      "icon": "el-icon-check"
+      id: 2,
+      btntype: "success",
+      name: "主要按钮",
+      icon: "el-icon-check",
     },
     {
-      "id": 3,
-      "btntype": "info",
-      "name": "信息按钮",
-      "icon": "el-icon-message"
+      id: 3,
+      btntype: "info",
+      name: "信息按钮",
+      icon: "el-icon-message",
     },
     {
-      "id": 4,
-      "btntype": "warning",
-      "name": "警报按钮",
-      "icon": "el-icon-star-off"
+      id: 4,
+      btntype: "warning",
+      name: "警报按钮",
+      icon: "el-icon-star-off",
     },
     {
-      "id": 5,
-      "btntype": "danger",
-      "name": "危险按钮",
-      "icon": "el-icon-delete"
-    }
-  ]
-}
+      id: 5,
+      btntype: "danger",
+      name: "危险按钮",
+      icon: "el-icon-delete",
+    },
+  ],
+};
 
-export {
-  menuList,
-  buttonType
-}
+export { menuList, buttonType };

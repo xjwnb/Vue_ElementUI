@@ -1,8 +1,10 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
 
 // import test from 'components/test.vue'
+const Home = () => import('views/Home/index')
+const Echarts = () => import('views/Home/Echarts')
+
 const Basic = () => import('views/Basic/index')
 const GeneralLayout = () => import('views/Basic/Layout')
 const Button = () => import('views/Basic/Button')
@@ -20,7 +22,13 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: Home
+    component: Home,
+    children: [
+      {
+        path: "",
+        component: Echarts
+      }
+    ]
   },
   {
     path: "/basic",

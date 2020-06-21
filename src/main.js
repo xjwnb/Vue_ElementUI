@@ -8,6 +8,12 @@ import { Notification } from 'element-ui'
 import clipboard from 'clipboard'
 import vcolorpicker from 'vcolorpicker'
 import BaiduMap from 'vue-baidu-map'
+// echarts
+import Echarts from 'vue-echarts'
+import 'echarts/lib/chart/line'
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+Vue.component('chart', Echarts)
 
 require('./mock.js')
 
